@@ -1,0 +1,177 @@
+.navcont{
+    align-items: center;
+    justify-content: center;
+}
+
+.fl{
+    display: flex;
+}
+
+.cartitem{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #fff7ef;
+    height: 6rem;
+    position: relative;
+}
+
+.navwave{
+    bottom: -20%;
+    z-index: 1;
+    width: 100vw;
+}
+
+.z2{
+    z-index: 2;
+}
+
+.navlg img {
+    position: relative;
+    top: -8px;
+    width: 3vw;
+    left: -4px;
+}
+
+.navmain{
+    justify-content:space-evenly;
+}
+
+
+
+
+.cartnum{
+    position: absolute;
+
+}
+
+.navlg span, .main-9 h1 span{
+    color:#ea6284
+}
+
+.navlg , .main-9 h1{
+        font-size: 3vw;
+        color: var(--bs-link-color);
+        color: #733b6b !important;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .navlg:hover{
+        color: #733b6b;
+    }
+
+
+    .navlg span:hover{
+        color: #ea6284;
+
+    }
+nav a{
+text-decoration: none;
+list-style-type: none;
+}
+
+
+
+nav i {
+        margin: 0px 10px;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    margin: 0 10px;
+        font-size: 20px;
+        color: #485973;
+    }
+
+    nav ul li:hover{
+        color: black;
+        text-shadow: 1px 1px 2px grey;
+    }
+
+
+
+
+
+.naviconcont{
+    margin: 0;
+    justify-content: flex-end !important;
+    padding: 0 30px;
+
+}
+
+.naviconcont i{
+        color: #223557;
+}
+
+
+.navlogo{
+    justify-content: flex-start !important;
+    padding: 0 30px;
+}
+.cartbtn{
+    width: fit-content;
+    padding: 0;
+    background: transparent;
+    color: black;
+    border: none;
+}
+
+.cartbtn:hover{
+    background: transparent;
+    color: black;
+}
+
+.cartbtn:active{
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.rounded-pill{
+    font-size: 9px !important;
+}
+
+nav i{
+    cursor: pointer;
+}
+
+.translate-middle {
+    transform: translate(-84%,-39%)!important;
+}
+
+.curve{
+    position: absolute;
+    height:4rem;
+    width:100%;
+    bottom: 0;
+
+}
+
+.curve::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    border-radius: 100% 100%;
+    width: 11%;
+    height: 100%;
+    background-color: black;
+    transform: translate(30%,50%);
+}
+
+.curve:after{
+    content: "";
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: blue;
+transform: translate(-4%,40%);
+z-index: -1;
+}
+

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff7ef;
+}
+
+.im{
+    position: absolute;
+}
+
+.main-1{
+    position: relative;
+    padding: 0;
+}
+
+.main-1 h1{   
+    top: 45%;
+    left: 35%;
+    color: white;
+    font-size: 3vw;
+}
+
+.main-1img1{
+    width: 100%;
+    height: 25rem;
+
+}
+
+.fl{
+  display: flex;
+}
+
+
+.main-1img2{
+    left: 22%;
+    top: -14%;
+    width: 24vw;
+}
+
+.sclx{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+
+  .main-2{
+    position: relative;
+    top: 4rem;
+  }
+
+ 
+
+.main-2 h1, .main-3 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 3vw;
+}
+
+  .main-2 p, .main-3 p {
+    width: 60%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.5vw;
+    margin-top: 40px;
+}
+
+.main-2 p , .main-3 p{
+    color: #7d7976;
+}
+
+.main-1imgn2 {
+    right: 18% !important;
+    top: -14%;
+    width: 14vw;
+    position: absolute;
+}
+
+    .main-1imgn3 {
+        left: 15%;
+        top: 6%;
+        width: 13vw;
+    }
+
+    .main-1imgn4 {
+        right: 5%;
+        bottom: -22%;
+        width: 16vw;
+    }
+
+    .main-1imgn5 {
+        left: 22%;
+        bottom: -13%;
+        width: 10vw;
+    }
+
+
+    .main-2imgn1{
+        right: 10%;
+        top: 30%;
+        rotate: -34deg;
+        width: 8vw;
+    }
+
+    
+    .main-2imgn2{
+        width: 13vw;
+        left: 43%;
+        top: 7%;
+    }
+
+    .main-3imgn1 {
+        width: 11vw;
+        left: 45%;
+        top: 28%;
+    }
+    .main-3imgn2 {
+        width: 20vw;
+        top: 44%;
+        right: 10%;
+        z-index: -1;
+    }
+    .main-3imgn3 {
+        width: 13vw;
+        left: 10%;
+        top: 60%;
+    }
+
+    
+
+.main-3{
+    position: relative;
+    top: 8rem;
+}
+
+.main-8img3 {
+    width: 14vw;
+    position: absolute;
+    top: -8%;
+    left: 19vw;
+}
+
+.main-8img5{
+        rotate: 170deg;
+        top: 100%;
+        right: 25%;
+        width: 5vw;
+}
+
+.main-8img6 {
+    width: 7vw;
+    left: 8%;
+    top: 80%;
+    rotate: -25deg;
+}
+
+.main-8{
+    top: 14rem;
+}
+
+.main-9imgn1{
+        width: 12vw;
+        bottom: 0;
+        left: 10%;
+}
+
+.main-9{
+    top: 20rem;
+}
+
+
+footer{
+    top: 20rem;
+}
+.ft-img1n {
+    right: 12%;
+    width: 8vw;
+    bottom: 55%;
+}
+
+
+

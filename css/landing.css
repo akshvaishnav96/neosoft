@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff7ef;
+}
+
+.fl {
+  display: flex;
+}
+
+.main-1 {
+  position: relative;
+}
+
+.sl1dv {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 30rem;
+}
+
+.main-1text h4 {
+  color: white;
+}
+
+.crvbtn {
+  background-color: transparent;
+  padding: 12px;
+  position: relative;
+  border: none;
+  background-image: url(../images/button-img.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.main-1text {
+  position: absolute;
+  top: 25%;
+  left: 12vw;
+}
+
+.main-1img1{
+  z-index: 1;
+  position: absolute;
+  top: -12%;
+  left: 25%;
+}
+
+.main-1img2{
+  z-index: 1;
+  position: absolute;
+  right: 5%;
+  bottom: 6%;
+}
+
+ 
+
+.main-1text h1{
+  color: #001b43;
+}
+
+.dotbtn {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.main-2 {
+  position: relative;
+}
+
+.main-2 img{
+  position: absolute;
+}
+
+.main-2img1{
+  width: 8vw;
+  top: -26%;
+  left: 5%;
+}
+
+.main-2img2{
+  bottom: 92%;
+  right: top;
+  left: 33%;
+  width: 14vw;
+}
+
+
+.main-2img3 {
+  position: absolute;
+  right: 19%;
+  width: 17vw;
+  top: 28%;
+}
+
+.main-2img4 {
+  right: 5%;
+  width: 7vw;
+  top: 22%;
+}
+
+.main-2img5{
+  right: 0;
+  width: 30vw;
+  top: -36%;
+  z-index: -1;
+}
+
+.main-2img6 {
+  top: 17%;
+  width: 13vw;
+  left: 12.5%;
+}
+
+.main-2 h1 {
+  font-size: 38px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.main-2 p,
+.main-2 h1 {
+  width: 40vw;
+  margin-left: 12vw;
+}
+
+.main-2 span, .main-5 span{
+  color: #4bb7d4;
+  cursor: pointer;
+}
+
+.main-2 span:hover, .main-5 span:hover{
+  text-decoration: underline;
+}
+
+
+
+
+.main-3 {
+  position: relative;
+  top: 6rem;
+  height: 25rem;
+}
+
+.main-3item {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-3 h1 {
+  text-align: center;
+}
+
+.main3imgdv {
+  background-color: #ececec;
+  border-radius: 50%;
+  width: 15vw;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main3itemsdv span {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.main-3 img {
+  width: 90%;
+  height: 90%;
+}
+
+.main-3img1{
+  width: 13vw;
+  height: auto;
+  left: 43%;
+  top: 15%;
+}
+
+.sl2btbn {
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #eb5d46 !important;
+  border-radius: 50%;
+}
+
+.sl2dotbtn {
+  margin: 0 auto;
+}
+
+.main-3 h1,
+.main-4 h1,
+.main-5 h1,
+.main-6 h1 {
+  font-size: 3vw;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.main-4 {
+  height: fit-content;
+  position: relative;
+  top: 10rem;
+}
+
+
+
+.main-4itemdv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-4item {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 20px;
+  position: relative;
+}
+.main-4item img {
+  width: 20rem;
+}
+
+.m8clmn {
+  position: relative;
+  top: 25rem;
+  height: 20rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.g-3.g-3 {
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  padding: 10px;
+  display: flex;
+}
+
+.main-4img1{
+  width: auto;
+}
+
+.im{
+  position: absolute;
+}
+
+.main-4img1{
+    width: 9vw !important;
+    left: -10% !important;
+    top: 0 !important;
+}
+.main-4img2{
+  width: 14vh !important;
+  top: -5% !important;
+  left: 0;
+}
+
+.main-4img3{
+  top: 0 !important;
+  width: 10vw !important;
+  right: -20% !important;
+}
+
+.main-4img4{
+  width: 14vw !important;
+  top: -8% !important;
+  rotate: 180deg !important;
+  left: -10% !important;
+}
+
+.main-4img5{
+width: 15vw !important;
+    /* bottom: 0; */
+    left: 15% !important;
+    top: 99% !important;
+}
+
+.main-4img6{
+    top: 6%;
+    left: 43%;
+}
+
+.main-4item span{
+  font-size: 20px;
+  color: #3b3b3b;
+  font-weight: 500;
+}
+
+
+.cntr {
+  margin: 50px auto;
+  display: block;
+  height: 4rem;
+}
+
+.main-5 {
+  top: 15rem;
+  position: relative;
+}
+
+.main-5 img{
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+
+.main-5img1{
+    width: 7vw !important;
+    left: 45% !important;
+    bottom: -10% !important;
+}
+
+.main-5img2{
+    top: 36%;
+    left: 15.5vw;
+}
+
+
+
+.main-5text{
+  position: absolute;
+  width: 30vw;
+  top: 25%;
+  left: 15%;
+}
+
+.main-5text h1{
+  text-align: left;
+}
+
+.main-6{
+  position: relative;
+  top: 20rem;
+}
+
+.main-6 i{
+  padding: 20px;
+  color:#fba93f;
+}
+
+.main-6 p{
+  width: 85%;
+  color: #656565;
+}
+
+.main-6 img {
+  width: 4rem;
+  border-radius: 50%;
+  height: 4rem;
+  margin: 5px;
+}
+
+.main-6img1{
+  right: 20% !important;
+  top: -6% !important;
+  width: 7vw !important;
+}
+
+.main-6img2 {
+  right: 15% !important;
+  width: 12vw !important;
+  bottom: 4%;
+  z-index: 1;
+  height: 8rem !important;
+}
+
+
+.main-6img3{
+  top: 10%;
+  left: 42.5%;
+}
+
+
+
+
+
+
+
+.main-6 hr {
+  width: 8vh;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.main-6text{
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 0px 1px 4px grey;
+}
+
+.name{
+  margin: 8px;
+color: #828282;
+}
+
+#carouselExampleDark{
+  height: 30rem;
+}
+
+.sl3dotbtn{
+  height: 10px !important;
+  width:10px !important;
+  border-radius: 50% !important;
+  background-color: #fba93e !important;
+}
+
+.main-7{
+  position: relative;
+  top: 25rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-7item{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 20vw;
+  text-align: center;
+}
+
+.main-7 i {
+  font-size: 4vw;
+  color: rgb(195 215 220);
+  margin: 15px;
+}
+
+.main-7 h1{
+  font-size: 2vw;
+  color: #092148;;
+}
+
+.main-7 p{
+color: #7b7875;
+font-size: 1.2vw;
+}
+
+
+
+.und{
+  width: 13vw !important;
+  height: auto !important;
+}
+
+
+
+
+
+
+
+
+

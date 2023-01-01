@@ -1,0 +1,116 @@
+@media screen and (max-width:767px) {
+    .main-3 h1, .main-4 h1, .main-6 h1 {
+        font-size: 3vw;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .main-9img3 {
+        left: 20%;
+}
+
+.main-9 p, .main-8 p {
+    font-size: 1.5vw;
+}
+
+.main-9socialdv h3, .main-9 h4, .main-8 h4 {
+    color: #11294e;
+    font-size: 2.5vw;
+}
+
+.m8clmn{
+    top: 16rem;
+}
+
+.crvbtn {
+    background-color: transparent;
+    padding: 6px;}
+    
+    
+    .m8clmn {
+        position: relative;
+        top: 20rem;}
+
+        .main-8 button{
+            padding: 16px;
+           }
+
+           .m8clmn {
+            top: 12rem;
+        }
+    
+        .main-9 {
+            top: 9rem;
+        }
+    
+        .main-9 h4 {
+            margin-top: 15px;
+        }
+    
+        .main-9socialdv {
+            margin: 30px 0;
+        }
+    
+        .ic {
+            margin: 0px 5px;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        @media screen and (max-width:512px){
+            .m8clmn {
+                top: 9rem;
+            }
+           
+            
+           
+            
+          
+            
+            .ic i {
+                font-size: 2vw;
+            }
+            
+            .pg1fc::placeholder{
+                font-size:8px !important;
+                
+            }
+            
+            .pg1fc{
+                width: 32vw;
+                font-size: 8px;
+                height: 2rem;
+            }
+            
+           .fa-greater-then{
+            font-size: 2vw;
+           }
+
+           .main-8 button {
+            padding: 15px;
+        }
+            
+            .main-9{
+                top: 4rem;
+            }
+            
+            footer {
+                position: relative;
+                top: 4rem;
+                background-color: #733b6b;
+                text-align: center;
+                font-size: 1.5vw;
+                color: #b391ae;
+            }
+
+
+            
+           
+
+
+        }
+
+        
+}
+
+
+

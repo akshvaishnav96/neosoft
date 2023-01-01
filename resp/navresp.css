@@ -1,0 +1,139 @@
+@media screen and (max-width:1309px){
+    nav ul li{
+        font-size: 15px !important;
+    }
+
+    @media screen and (max-width:1095px){
+        nav ul li{
+            font-size: 12px !important;
+        }
+    }
+
+    @media screen and (max-width:997px){
+        .ft-ul {
+            width: 100%;
+        }
+
+       
+
+
+        .navcont {
+            padding: 0 4px !important;
+            width: 20%;
+            margin: 0;
+        }
+
+        .fl {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .scdv{
+            width: 60%;
+        }
+
+        
+        .naviconcont i {
+            color: #223557;
+            font-size: 12px;
+        }
+
+        .rounded-pill {
+            font-size: 8px !important;
+        }
+
+        
+
+        
+    }
+
+    @media screen and (max-width:767px){
+        .ft-ul li {
+            font-size: 1.5vw;
+        }
+
+        .main-9 p {
+            font-size: 1.5vw;
+        }
+       
+
+        nav{
+            height: 2.5rem;
+        }
+
+        .navcont {
+            padding: 0px 10px !important;
+        }
+
+       
+    }
+
+    @media screen and (max-width:512px){
+        .navlg {
+            font-size: 12px;
+    }
+
+    
+
+.navlg img {
+    width: 2vw;
+    top: -2px;
+    left:-1px;
+}
+
+nav ul li {
+    font-size: 10px !important;
+    margin: 0;
+    margin: 5px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+.naviconcont i{
+    font-size: 10px;
+    margin: 5px;
+}
+
+.cartbtn{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.rounded-pill {
+    font-size: 6px !important;
+    top: 0;
+    
+}
+
+ .badge {
+    position: relative;
+    top: 5px !important;    
+}
+
+.navwave{
+    bottom:-15%
+}
+
+}
+
+@media screen and (max-width:340px){
+    nav ul li {
+        font-size:6px !important;
+    }
+
+    .navlg {
+        font-size: 8px;
+    }
+
+    .navcont {
+        padding: 0px 6px !important;
+    }
+
+    .naviconcont i {
+        font-size: 8px;
+    }
+             }
+
+}
